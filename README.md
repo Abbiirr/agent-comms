@@ -16,7 +16,7 @@ Everything lives in plain markdown files that you can read, edit, and review you
 ## Install (Codex / Claude Code)
 
 ```bash
-npx skills add <owner/repo> --agent codex claude-code --yes --copy
+npx skills add Abbiirr/agent-comms --agent codex claude-code --yes --copy
 ```
 
 After installing, invoke the skill normally. On first invocation, the skill instructs the agent to run bootstrap if the comms files are missing.
