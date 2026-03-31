@@ -13,10 +13,16 @@ If the repo does not already contain the comms files, bootstrap them first with 
 
 ## Quick Start
 
-Public install flow:
+Install:
 
 ```bash
-npx skills add <owner/repo> --agent codex claude-code --yes --copy
+npx skills add Abbiirr/agent-comms
+```
+
+For Claude Code with non-interactive install:
+
+```bash
+npx skills add Abbiirr/agent-comms --agent claude-code --yes --copy
 ```
 
 After install, invoke the skill normally.
